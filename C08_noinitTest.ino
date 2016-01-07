@@ -1,9 +1,15 @@
-///This code is from http://forum.arduino.cc/index.php?topic=41088.0 by mem
-/// 下面這個程式說明加上__attribute__ ((section(".noinit"))); 陳述的變數，再重新Reset 之後(不掉電的前提下)
-/// 是可以保持住重開機之前的數值的
-
-/// 用途
-/// 可以用來維護一些隨時間改變，但是不方便放在EEPROM的變數，例如 軟體時間，系統執行狀態等.... 
+/*  C08_noinitTest.ino
+ *   noinit Section 使用範例
+ *   使用時機 : 系統Reset 或是當機之後，需要取得當機前的一些特定數值
+ *   使用方法 : 可以用來維護一些隨時間改變，但是不方便放在EEPROM的變數，例如 軟體時間，系統執行狀態等....  
+ *               加上   __attribute__ ((section(".noinit"))); 來宣告特定變數在硬體初始化時不被清除
+ 
+ *   引用來源 : This code is from http://forum.arduino.cc/index.php?topic=41088.0 by mem
+ *      
+ *   Author : allen54a0
+ *   DATE: 2016 0107
+ * 
+ */
 
 
 
