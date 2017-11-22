@@ -1,10 +1,9 @@
 /*
 Code for  moreStableArduinoCode
 
-****  NEED UNO BOARD or MEGA Board, or  had burnned the optiboot bootloader into your legecy board (mini, nano, duemilanove)
 
 Class 3. Watching DOG
-Note            : This version uses Serial plot to demo the task Sequence.....        
+Note            : NEED UNO BOARD or MEGA Board, or  had burnned the optiboot bootloader into your legecy board (mini, nano, duemilanove)        
 author          : allen54a0@gmail.com
 compiler        : arduino IDE 1.8.4
 lib dependience :  
@@ -161,9 +160,4 @@ void setup()
 
 
  }
-
-
  
-
-
-
