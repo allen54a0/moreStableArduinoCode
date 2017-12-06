@@ -5,3 +5,6 @@
 只要參考這些準則與技巧進行程式撰寫，可以協助Arduino 使用者寫出可以執行24-365(每天跑24小時，一年365天)都不中斷服務的超級穩定程式。
 
 大家可以根據這個流程圖來選擇需要使用的技巧。
+
+比較詳細的說明請參考wiki 
+https://github.com/allen54a0/moreStableArduinoCode/wiki
